@@ -8,10 +8,17 @@
     <title>JukeDisc</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
 <?php include("includes/header.php") ?>
-<div class="placeholder"></div>
+<div class="hero">
+    <h1>JukeDisc</h1>
+    <h3>Najdi rytmus ve svém srdci 🎵🎶</h3>
+</div>
+
+<!-- TODO: produkty -->
+
 <?php include("includes/footer.php") ?>
 </body>
 </html>

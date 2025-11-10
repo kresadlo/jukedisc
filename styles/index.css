@@ -1,0 +1,23 @@
+.hero {
+    margin-top: 70px;
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-color: #4c4c4c;
+    background-blend-mode: multiply;
+    background-image: url("../images/hero.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #f7f7f7;
+}
+
+@media screen and (max-width: 800px) {
+    .hero {
+        margin: 0;
+    }
+}
