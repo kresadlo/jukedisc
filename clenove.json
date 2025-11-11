@@ -1,0 +1,44 @@
+[
+  {
+    "jmeno": "Svatopluk Krejsa",
+    "funkce": "ředitel",
+    "obrazek": "clen.webp",
+    "popis": "krátký popis"
+  },
+  {
+    "jmeno": "Filip Strasser",
+    "funkce": "zástupce ředitele",
+    "obrazek": "clen.webp",
+    "popis": "krátký popis"
+  },
+  {
+    "jmeno": "Martin Kocián",
+    "funkce": "prodejce/obchodník",
+    "obrazek": "clen.webp",
+    "popis": "krátký popis"
+  },
+  {
+    "jmeno": "Vojta Pytlík",
+    "funkce": "účetní",
+    "obrazek": "clen.webp",
+    "popis": "krátký popis"
+  },
+  {
+    "jmeno": "Jan Hrbek",
+    "funkce": "prodejce/obchodník",
+    "obrazek": "clen.webp",
+    "popis": "krátký popis"
+  },
+  {
+    "jmeno": "Josef Sika",
+    "funkce": "účetní",
+    "obrazek": "clen.webp",
+    "popis": "krátký popis"
+  },
+  {
+    "jmeno": "Martin Kříž",
+    "funkce": "marketing",
+    "obrazek": "clen.webp",
+    "popis": "krátký popis"
+  }
+]

@@ -18,48 +18,19 @@
         <img src="images/onas.webp" alt="fotka">
     </div>
     <div class="clenove">
-        <div class="clen">
-            <h3>Svatopluk Krejza</h3>
-            <h4>ředitel</h4>
-            <img src="images/clen.webp" alt="fotka">
-            <p>krátký popis</p>
-        </div>
-        <div class="clen">
-            <h3>Filip Strasser</h3>
-            <h4>zástupce ředitele</h4>
-            <img src="images/clen.webp" alt="fotka">
-            <p>krátký popis</p>
-        </div>
-        <div class="clen">
-            <h3>Martin Kocián</h3>
-            <h4>---</h4>
-            <img src="images/clen.webp" alt="fotka">
-            <p>krátký popis</p>
-        </div>
-        <div class="clen">
-            <h3>Vojta Pytlík</h3>
-            <h4>---</h4>
-            <img src="images/clen.webp" alt="fotka">
-            <p>krátký popis</p>
-        </div>
-        <div class="clen">
-            <h3>Jan Hrbek</h3>
-            <h4>---</h4>
-            <img src="images/clen.webp" alt="fotka">
-            <p>krátký popis</p>
-        </div>
-        <div class="clen">
-            <h3>Josef Sika</h3>
-            <h4>---</h4>
-            <img src="images/clen.webp" alt="fotka">
-            <p>krátký popis</p>
-        </div>
-        <div class="clen">
-            <h3>Martin Kříž</h3>
-            <h4>---</h4>
-            <img src="images/clen.webp" alt="fotka">
-            <p>krátký popis</p>
-        </div>
+        <?php
+        $json = file_get_contents('clenove.json');
+        $clenove = json_decode($json, true);
+
+        foreach ($clenove as $clen) {
+            echo('<div class="clen">
+            <h3>' . $clen['jmeno'] . '</h3>
+            <h4>' . $clen['funkce'] . '</h4>
+            <img src="images/' . $clen['obrazek'] . '" alt="fotka">
+            <p>' . $clen['popis'] . '</p>
+        </div>');
+        }
+        ?>
     </div>
 </div>
 <?php include("includes/footer.php") ?>

@@ -14,10 +14,10 @@
 <?php include("includes/header.php") ?>
 <div class="hero">
     <h1>JukeDisc</h1>
-    <h3>Najdi rytmus ve svém srdci 🎵🎶</h3>
+    <h4>Najdi rytmus ve svém srdci 🎵🎶</h4>
 </div>
 
-<!-- TODO: produkty -->
+<!-- TODO: nabidka -->
 
 <?php include("includes/footer.php") ?>
 </body>
