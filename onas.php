@@ -15,7 +15,7 @@
 <div class="container">
     <div class="onas">
         <h2>Náš tým</h2>
-        <img src="images/onas.webp" alt="fotka">
+        <img src="images/onas/tym.webp" alt="fotka">
     </div>
     <div class="clenove">
         <?php
@@ -26,7 +26,7 @@
             echo('<div class="clen">
             <h3>' . $clen['jmeno'] . '</h3>
             <h4>' . $clen['funkce'] . '</h4>
-            <img src="images/' . $clen['obrazek'] . '" alt="fotka">
+            <img src="images/onas/' . $clen['obrazek'] . '" alt="fotka">
             <p>' . $clen['popis'] . '</p>
         </div>');
         }

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "example1",
+    "nazev": "Example 1",
+    "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "cena": 15000,
+    "obrazek": "produkt.webp"
+  },
+  {
+    "id": "example2",
+    "nazev": "Example 2",
+    "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "cena": 15000,
+    "obrazek": "produkt.webp"
+  },
+  {
+    "id": "example3",
+    "nazev": "Example 3",
+    "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "cena": 15000,
+    "obrazek": "produkt.webp"
+  },
+  {
+    "id": "example4",
+    "nazev": "Example 4",
+    "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "cena": 15000,
+    "obrazek": "produkt.webp"
+  },
+  {
+    "id": "example5",
+    "nazev": "Example 5",
+    "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "cena": 15000,
+    "obrazek": "produkt.webp"
+  },
+  {
+    "id": "example6",
+    "nazev": "Example 6",
+    "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "cena": 15000,
+    "obrazek": "produkt.webp"
+  },
+  {
+    "id": "example7",
+    "nazev": "Example 7",
+    "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "cena": 15000,
+    "obrazek": "produkt.webp"
+  },
+  {
+    "id": "example8",
+    "nazev": "Example 8",
+    "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "cena": 15000,
+    "obrazek": "produkt.webp"
+  },
+  {
+    "id": "example9",
+    "nazev": "Example 9",
+    "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "cena": 15000,
+    "obrazek": "produkt.webp"
+  }
+]

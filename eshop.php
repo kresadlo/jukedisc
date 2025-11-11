@@ -8,10 +8,33 @@
     <title>E-shop | JukeDisc</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/eshop.css">
 </head>
 <body>
 <?php include("includes/header.php") ?>
-<div class="placeholder"></div>
+<div class="eshop">
+    <?php
+    $json = file_get_contents('produkty.json');
+    $produkty = json_decode($json, true);
+
+    foreach ($produkty as $produkt) {
+        $popis = (mb_strlen($produkt['popis'], 'UTF-8') > 50) ? mb_substr($produkt['popis'], 0, 50, 'UTF-8') . '...' : $produkt['popis'];
+        echo('
+            <a href="produkt.php?id=' . $produkt['id'] . '">
+                <div class="produkt">
+                    <div class="produkt__top">
+                        <img src="images/produkty/' . $produkt['obrazek'] . '" alt="fotka">
+                    </div>
+                    <div class="produkt__bottom">
+                        <h3>' . $produkt['nazev'] . '</h3>
+                        <p>' . $popis . '</p>
+                        <h4>' . $produkt['cena'] . ' Kč</h4>
+                    </div>
+                </div>
+            </a>');
+    }
+    ?>
+</div>
 <?php include("includes/footer.php") ?>
 </body>
 </html>

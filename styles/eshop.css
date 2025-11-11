@@ -1,0 +1,33 @@
+.eshop {
+    margin-top: 70px;
+    padding: 30px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.produkt {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+    width: 240px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.produkt__top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.produkt img {
+    width: 90%;
+}
+
+a:has(.produkt) {
+    text-decoration: none;
+    color: #000;
+}
