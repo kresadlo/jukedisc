@@ -1,8 +1,8 @@
-.eshop {
+.produkty {
     margin-top: 70px;
     padding: 30px 80px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 20px;
     column-gap: 20px;
 }
@@ -30,4 +30,30 @@
 a:has(.produkt) {
     text-decoration: none;
     color: #000;
+}
+
+@media screen and (max-width: 1200px) {
+    .produkty {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .produkty {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .produkty {
+        grid-template-columns: 1fr;
+    }
+
+    .onas img {
+        max-width: 400px;
+    }
+
+    .onas {
+        height: 30vh;
+    }
 }

@@ -12,7 +12,7 @@
 </head>
 <body>
 <?php include("includes/header.php") ?>
-<div class="eshop">
+<div class="produkty">
     <?php
     $json = file_get_contents('produkty.json');
     $produkty = json_decode($json, true);
