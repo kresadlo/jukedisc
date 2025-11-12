@@ -31,7 +31,24 @@
     height: 200px;
     width: 400px;
     padding: 5px 10px;
+}
 
+.kontakt button {
+    width: 100px;
+    height: 35px;
+    align-self: center;
+    margin-top: 10px;
+    border: 1px #000 solid;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #fff;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.kontakt button:hover {
+    background-color: #f7f7f7;
 }
 
 .info {

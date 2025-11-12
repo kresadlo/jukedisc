@@ -20,7 +20,7 @@
         <input id="email" name="email" type="email" placeholder="" required>
         <label for="message">Zpráva</label>
         <textarea id="message" name="message" placeholder="" required></textarea>
-        <input type="submit" value="Odeslat">
+        <button type="submit">Odeslat</button>
     </form>
 </div>
 
