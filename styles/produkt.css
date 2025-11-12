@@ -1,0 +1,25 @@
+.wrapper {
+    width: 100%;
+    height: calc(100vh - 70px);
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produkt {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.produkt__right {
+    display: flex;
+    flex-direction: column;
+}
+
+.produkt img {
+    border-radius: 20px;
+}

@@ -15,6 +15,11 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
+    transition: all .3s;
+}
+
+.produkt:hover {
+    scale: 1.045;
 }
 
 .produkt__top {
