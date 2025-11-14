@@ -1,20 +1,20 @@
 <?php
 
-if(isset($_GET['id'])) {
-$id = $_GET['id'];
+if (isset($_GET['id'])) {
+    $id = $_GET['id'];
 
-$json = file_get_contents('produkty.json');
-$produkty = json_decode($json, true);
+    $json = file_get_contents('produkty.json');
+    $produkty = json_decode($json, true);
 
-foreach ($produkty as $produkt) {
-    if ($produkt['id'] == $id) {
-        $nazev = $produkt['nazev'];
-        $popis = $produkt['popis'];
-        $cena = $produkt['cena'];
-        $obrazek = $produkt['obrazek'];
-        break;
+    foreach ($produkty as $produkt) {
+        if ($produkt['id'] == $id) {
+            $nazev = $produkt['nazev'];
+            $popis = $produkt['popis'];
+            $cena = $produkt['cena'];
+            $obrazek = $produkt['obrazek'];
+            break;
+        }
     }
-}
 } else {
     header('location: produkty.php');
     exit();

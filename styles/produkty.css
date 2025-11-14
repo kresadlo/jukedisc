@@ -9,7 +9,7 @@
 
 .produkt {
     background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
     border-radius: 15px;
     width: 240px;
     padding: 10px;
@@ -52,13 +52,5 @@ a:has(.produkt) {
 @media screen and (max-width: 600px) {
     .produkty {
         grid-template-columns: 1fr;
-    }
-
-    .onas img {
-        max-width: 400px;
-    }
-
-    .onas {
-        height: 30vh;
     }
 }

@@ -36,14 +36,14 @@
         <p>jukedisc@gmail.com</p>
     </div>
     <div class="info__card">
-        <img src="images/kontakt/hodiny.webp" alt="Otevírací doba:">
-        <p>7:00 - 15:00</p>
-    </div>
-    <div class="info__card">
         <a href="https://instagram.com/jukedisc_" target="_blank">
             <img src="images/kontakt/instagram.webp" alt="Instagram:">
         </a>
         <p>jukedisc_</p>
+    </div>
+    <div class="info__card">
+        <img src="images/kontakt/hodiny.webp" alt="Otevírací doba:">
+        <p>7:00 - 15:00</p>
     </div>
     <div class="map__card">
         <div class="map__card__top">
