@@ -13,7 +13,7 @@
 <body>
 <?php include("includes/header.php") ?>
 <div class="kontakt">
-    <form method="post" action="odeslat.php">
+    <form method="post">
         <label for="name">Jméno a příjmení</label>
         <input id="name" name="name" type="text" placeholder="" required>
         <label for="email">Email</label>
