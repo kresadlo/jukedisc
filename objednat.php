@@ -14,15 +14,15 @@
 <?php include('includes/header.php'); ?>
 
 <div class="container">
-<form method="post">
-    <label for="jmenoprijmeni">Jméno a příjmení</label>
-    <input type="text" id="jmenoprijmeni" name="jmenoprijmeni" placeholder="Jan Novák" required>
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email" placeholder="jan.novak@email.cz" required>
-    <label for="objednavka">Objednávka</label>
-    <textarea id="objednavka" name="objednavka" required></textarea>
-    <button type="submit">Objednat</button>
-</form>
+    <form method="post">
+        <label for="jmenoprijmeni">Jméno a příjmení</label>
+        <input type="text" id="jmenoprijmeni" name="jmenoprijmeni" placeholder="Jan Novák" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="jan.novak@email.cz" required>
+        <label for="objednavka">Objednávka</label>
+        <textarea id="objednavka" name="objednavka" required></textarea>
+        <button type="submit">Objednat</button>
+    </form>
 </div>
 
 <?php include('includes/footer.php'); ?>

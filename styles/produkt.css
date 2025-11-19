@@ -15,11 +15,22 @@
     column-gap: 40px;
 }
 
+.produkt__left {
+    background-color: #fff;
+    border-radius: 20px;
+    width: 25%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .produkt__right {
     display: flex;
     flex-direction: column;
 }
 
 .produkt img {
-    border-radius: 20px;
+    max-height: 70%;
+    max-width: 70%;
 }

@@ -1,65 +1,37 @@
 [
   {
-    "id": "example1",
-    "nazev": "Example 1",
-    "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "cena": 15000,
-    "obrazek": "produkt.webp"
+    "id": "str-1h",
+    "nazev": "Blond STR-1H Black Edition",
+    "popis": "Elektrická kytara Blond STR-1H Black Edition z řady Original Series představuje ideální volbu pro začínající rockery a rockerky. Jedná se o nástroj s tradičním ST tvarem a všemi náležitostmi, které si s tímto typem kytary spojíte - od snímačů přes synchronizované tremolo po pickguard.\n\nTělo kytary je zhotoveno z topolu. K javorovému krku s příjemným Modern C profilem je přilepen hmatník z materiálu Roseacer, což je tepelně upravený javor v dekoru palisandru. Kombinace kobylkového humbuckeru a dvou single-coil snímačů poskytuje kytaře jak klasické čisté tóny a drive/crunch single-coilů, tak i plný rockový zvuk humbuckerů. Jeho charakter upravíte pomocí ovladačů tónové clony, hlasitosti a přepínače snímačů.\n\nStruny jsou uchyceny v die-cast ladicích mechanikách a synchronizovaném tremolu. Pěkné zpracování podtrhuje pickguard, hardware a potenciometry ve stylovém černém provedení.",
+    "cena": 3890,
+    "obrazek": "str-1h.avif"
   },
   {
-    "id": "example2",
-    "nazev": "Example 2",
-    "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "cena": 15000,
-    "obrazek": "produkt.webp"
+    "id": "js-400",
+    "nazev": "JET Guitars JS-400 SB",
+    "popis": "JET JS-400 SB je elektrická kytara, která nabízí design, zpracování a tradiční prvky ST modelů za dostupnou cenu. Lipové tělo nástroje kryje lesklý lak. Přišroubovaný krk z kanadského javoru a hmatník nástroje prošly před kompletací tepelnou úpravou, díky které je dřevo stabilnější a zároveň získá vzhled/auru již léty hraných krků/hmatníků.\n\nKombinace kobylkového humbuckeru a dvou single-coil snímačů s keramickými magnety poskytuje kytaře širokou paletu zvuků vhodných pro řadu hudebních žánrů. Charakter zvuku lze tvarovat pomocí potenciometru hlasitosti, tónové clony a pětipolohovým přepínačem snímačů. Struny jsou přes nultý pražec z kosti ukotveny v chromovaných ladicích mechanikách a synchronizovaném tremolu. Stylový vzhled kytary podtrhuje pickguard z imitace želvoviny.\n\nPoměrně nová značka Jet Guitars nabízí cenově dostupné elektrické kytary v tradičních designech, barvách a finiších.",
+    "cena": 5790,
+    "obrazek": "js-400.avif"
   },
   {
-    "id": "example3",
-    "nazev": "Example 3",
-    "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "cena": 15000,
-    "obrazek": "produkt.webp"
+    "id": "prs-custom24",
+    "nazev": "PRS Custom 24 Gray Black",
+    "popis": "Řada PRS Core sdružuje elektrické kytary vyráběné v USA. Jedná se o jedny z nejpropracovanějších a nejelegantnějších nástrojů, které můžete v současnosti na trhu najít.\n\nModel Custom 24 Gray Black už na první pohled upoutá kombinací ergonomicky tvarovaného mahagonového těla s typickým dvojitým PRS výřezem a topu z figurovaného javoru s parádní kresbou dřeva. Ke krku z jednoho kusu mahagonu s profilem Pattern Thin je přilepen palisandrový hmatník osazený čtyřiadvaceti pražci. Orientaci na hmatníku usnadňují trademark PRS polohové značky v podobě perleťových ptačích siluet.\n\nDvojice humbuckerů 85/15, speciálně navržených přímo zakladatelem firmy P. R. Smithem, nabízí kromě krásně čistého transparentního zvuku i rozšířenou odezvu v basech a výškách. Nastavení zvuku lze upravit pomocí potenciometru hlasitosti, tónové clony a pětipolohového přepínače snímačů se split-coil konfiguracemi na pozicích 2 (kobylkový humbucker + split-coil) a 4 (čistě split/single-coil zapojení). Kytara tak vynikne v široké škále hudebních stylů.\n\nStabilní ladění zaručují uzamykatelné ladicí mechaniky Phase III Locking s mechanismem, který brání nežádoucímu pohybu strun. Kolíčky ladicích mechanik (wing buttons) jsou lehčí než kovové mechaniky na starších modelech a umožňují nástroji déle rezonovat. Za zmínku stojí i do detailu propracovaný tremolo systém Gen III. Veškeré drážky a otvory pro šrouby jsou tvarovány tak, aby zajišťovaly maximální kontakt jednotlivých komponentů, případně optimální úhel zlomu struny, díky čemuž se na tělo přenáší i ty nejjemnější vibrace. Kameny jsou fixovány proti pohybu do stran, přesnou pozici vibrato páky lze nastavit vestavěným šroubem.\n\nKytara je dodávána v kufru (hardshell case).\n\nKytary PRS z dílny Paula Reeda Smithe platí za jedny z nejuniverzálnějších a nejspolehlivějších nástrojů vůbec. Díky skvělému zvuku a hernímu komfortu si je oblíbili například Carlos Santana nebo Mark Tremonti. V nabídce značky naleznete kromě osvědčených klasik i levoruké modely, sedmistrunky, barytonové i pololubové kytary nebo signature modely známých kytaristů.",
+    "cena": 138590,
+    "obrazek": "prs-custom24.avif"
   },
   {
-    "id": "example4",
-    "nazev": "Example 4",
-    "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "cena": 15000,
-    "obrazek": "produkt.webp"
+    "id": "tr4ce",
+    "nazev": "Tanglewood TR4CE",
+    "popis": "Řada Roadster II značky Tanglewood nabízí cenově dostupné modely akustických kytar v přírodním střídmém provedení s minimem dekorativních prvků a všeho, co nemá vliv na zvuk nástroje.\n\nTanglewood Roadster II TR4CE je elektroakustická kytara typu „Super Folk“, tj. nástroj s užším a mělčím tělem než nabízí např. Dreadnought. Přední deska kytary je zhotovena z vrstveného kanadského smrku, zadní deska a luby jsou vyrobeny z vrstveného mahagonu. K mahagonovému krku je přilepen hmatník z kompozitního materiálu v dekoru ebenu osazený dvaceti pražci. Orientaci na hmatníku usnadňují poziční tečky.\n\nMožnost ozvučení nabízí firemní preamp TW EX-4 s čtyřpásmovým ekvalizérem a zabudovanou chromatickou ladičkou. Struny jsou uchyceny v chromovaných die-cast mechanikách a kobylce z kompozitu. Strohý design zpestřuje rozeta složená z mahagonových a javorových prstenců.",
+    "cena": 8690,
+    "obrazek": "tr4ce.avif"
   },
   {
-    "id": "example5",
-    "nazev": "Example 5",
-    "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "cena": 15000,
-    "obrazek": "produkt.webp"
-  },
-  {
-    "id": "example6",
-    "nazev": "Example 6",
-    "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "cena": 15000,
-    "obrazek": "produkt.webp"
-  },
-  {
-    "id": "example7",
-    "nazev": "Example 7",
-    "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "cena": 15000,
-    "obrazek": "produkt.webp"
-  },
-  {
-    "id": "example8",
-    "nazev": "Example 8",
-    "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "cena": 15000,
-    "obrazek": "produkt.webp"
-  },
-  {
-    "id": "example9",
-    "nazev": "Example 9",
-    "popis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "cena": 15000,
-    "obrazek": "produkt.webp"
+    "id": "sc-44s",
+    "nazev": "Blond SC-44S R NAT",
+    "popis": "Klasické kytary značky Blond jsou cenově dostupné nástroje vhodné pro začínající hudebníky. S jejich pomocí si osvojí základní techniky a dovednosti, navíc za cenu, která nijak nezatíží rodinný rozpočet.\n\nKlasická kytara Blond SC-44S R NAT v 4/4 velikosti nabízí polomasivní konstrukci s přední deskou z masivu smrku a zadní deskou a luby z vrstveného palisandru, mahagonový krk a palisandrový hmatník a kobylku. Struny jsou přes nultý pražec z tvrzeného kompozitního materiálu s kovovými částicemi (plastic steel) uchyceny v klasických chromovaných mechanikách. Stylové zpracování podtrhuje nanesený lesklý lak a tradiční prvky v podobě dekorativní rozety a plastové lemovky (ABS). Na kytaře jsou nataženy struny značky Savarez.",
+    "cena": 4190,
+    "obrazek": "sc-44s.avif"
   }
 ]

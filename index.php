@@ -17,8 +17,6 @@
     <h4>Najdi rytmus ve svém srdci 🎵🎶</h4>
 </div>
 
-<!-- TODO: nabidka -->
-
 <?php include("includes/footer.php") ?>
 </body>
 </html>
